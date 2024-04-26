@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="heading">
+        <a href="index.html"><img src="logo.svg" width="10%"></a> 
+        <div class="header-right">
+            <a href="Signup.html" class="links">Signup</a>
+            <a href="About.html" class="links">About</a>
+            <!-- <a href="Pricing.html" class="links">Pricing</a> -->
+            <a href="Support.html" class="links">Support</a>
+        </div>
+    </div>
+    <div class="signupform">
+   
+        <div class="signup_image">
+       <h1 class="signupheading"> Signup </h1> 
+        <img src="signup.png">
+    </div>
+    <form id="signupform">
+    <div class="profile">
+    <h1>Profile</h1>
+       *First Name- <input type="text " required>  *Last Name- <input type="text " required><br>
+       *Pan Number : <input type="text" required> <br>
+       *Phone Number: <input typ="Phone" required> <br>
+       Marital Status <input type="radio"name="Status" value="Single"> Single
+       <input type="radio" value="Married" name="Status"> Married
+       <h1>Background</h1>
+       Annual Income <select name="Income" id="income">
+        <option value="Below 1L">Below 1L</option>
+        <option value="1-5L">1-5L</option>
+        <option value="5-10L">5-10L</option>
+        <option value="10-25L">10-25L</option>
+        <option value="More than 25L">More than 25L</option>
+       </select>
+       <br>       Settelment preference <select name="Settelment" id="settlement">
+        <option values="Once every quarter">Once every quarter</option>
+        <option values="Once per month">Once per month</option>
+       </select>
+       <br>
+   
+
+       Trading Experience<select name="Trading experience">
+        <option value="New">New</option>
+        <option value="1 yaer">1 yr</option>
+        <option value="1-5 years">1-5 yrs</option>
+        <option value="5-10 years">5-10 yrs</option>
+        <option value="10+ years">10+ yrs</option>
+       </select>
+       </div>
+       <h1> Link Bank Account</h1>
+       
+     <h4>  Bank Account in your name from which you will be doing funds transfer</h4>
+       
+       <!-- <input type="button" value="Link with IFSC" class="ifsc">  -->
+       <div class="button">
+        <a href="Ifsc.html" class="h"> Link using IFSC</a>
+    </div><br>
+    <div class="button">
+        <a href="UPI.html" class="h"> Link using UPI</a>
+    </div>
+    <div class="document">
+    <h1>Upload Documents</h1>
+
+  <div class="document">  Income Proof
+   <select name="incomeproof">
+    <option value="Itr">ITR Acknowledgement</option>
+    <option value="Bank Statement">Bank Statement</option>
+    <option value="Latest Salary Slip">Latest Salary Slip</option>
+    <option value="Form 16">Form 16</option>
+   </select> 
+   <br>
+
+    <input type="file">
+    <br>
+<!-- <div class="document"> -->
+    Signature<br>
+<input type="file">`
+<br>
+<!-- <div class="document"> -->
+Pan Copy<br>
+<input type="file">
+<br>
+
+<input type="checkbox"> I have read and understood the contracts of the Equity Anexure Documents.<br>
+<div class="button1">
+<button type="submit" form="signupform" class="h">Submit</button>
+</div>
+    </form>
+   
+    <!-- <button type="submit" form="signupform" class="h">Submit</button> -->
+
+</div>
+</body>
+</html>

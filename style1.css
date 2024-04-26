@@ -1,0 +1,76 @@
+.heading{
+    /* overflow: hidden; */
+    /* background-color: #f1f1f1; */
+   
+    text-decoration: none;
+    border-bottom: 2px solid rgb(58, 54, 54);
+    color: rgb(58, 54, 54);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .links:hover{
+    color: blue;
+  }
+  .header-right {
+    float: right;
+    word-spacing: 20px;
+  }
+  body { 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .links{
+    text-decoration: none;
+    color: rgb(58, 54, 54);
+  }
+  .signupform{
+    padding: 10%;
+    color: rgb(58, 54, 54);
+    word-spacing: 1px;
+  }
+  .signup_image{
+    
+    text-align: center;
+  }
+  .signupheading{
+    color: blue;
+  }
+ 
+  .h{
+    /* text-align: center; */
+    text-decoration: none;
+    background-color: blue;
+    color: #f1f1f1;
+    border: 1px;
+    border-radius: 3px;
+    margin: 2px;
+    word-spacing: 1px;
+    padding: 10px;
+    
+   }
+   .h:hover{
+    background-color: black;
+   }
+   .button{
+    padding: 1em;
+    
+   }
+   .document{
+    line-height: 2;
+   }
+ 
+.profile{
+  line-height: 2;
+}
+.button1{
+  text-align: center;
+  padding: 1em;
+ }
+ form{
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 2%;
+ }
+ 

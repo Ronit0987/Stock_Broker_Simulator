@@ -1,0 +1,41 @@
+body { 
+   
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .links{
+    text-decoration: none;
+    color: rgb(58, 54, 54);
+  }
+  .links:hover{
+    color: blue;
+  }
+  .heading{
+    /* overflow: hidden; */
+    /* background-color: #f1f1f1; */
+    border-bottom: 2px solid rgb(58, 54, 54);
+    text-decoration: none;
+    color: rgb(58, 54, 54);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .header-right {
+    float: right;
+    word-spacing: 20px;
+  }
+  .signupform{
+    padding: 10%;
+    color: rgb(58, 54, 54);
+    word-spacing: 1px;
+    line-height: 2;
+  }
+  .signupheading{
+    text-align: center;
+    color: blue;
+  }
+.col{
+  float: left;
+  width: 50%;
+}
